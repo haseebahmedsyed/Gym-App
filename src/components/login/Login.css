@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-of-login{
+    background: url("../../login-image.jpg") no-repeat center;
+    background-size: cover;
+    height: 50rem;
+}
+
+#login-main-heading{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 0px 0px 22px 0px;
+}
+
+#login-main-heading > div{
+    color: #f6c501;
+}
+
+.login-box{
+    background-color: #2f303099;
+    border: 5px solid #f6c501;
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#login-heading{
+    margin: 20px;
+    font-size: 45px;
+}
+
+#login-heading > span{
+    color: #f6c501;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.input-field::after{
+    content: "";
+    width: 65%;
+    height: 3px;
+    background-color: #f6c501;
+    display: block;
+}
+
+.input-field > div{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.input-field > div > input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.input-field > div> i{
+    color: #f6c501;
+}
+
+.input-field #show-and-hide-eye{
+    cursor: pointer;
+}
+
+#input-field-pwd:focus{
+    letter-spacing: 0.1rem;
+}
+
+.input-field > div > input:focus{
+    outline: none;
+}
+
+#remember-me{
+    font-size: 22px;
+    position: relative;
+    left: 115px;
+    /* display: block; */
+}
+
+#remember-me > input{
+    margin: 25px 10px;
+}
+
+::placeholder { 
+    color: white;
+  }
+
+  #login1-btn button{
+    width: 65%;
+    background-color: transparent;
+    color: white;
+    font-size: 27px;
+    margin: 15px 0px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
+  #login1-btn > button:hover{
+    background-color: #f6c501;
+    color: black;
+    cursor: pointer;
+    border: none;
+  }

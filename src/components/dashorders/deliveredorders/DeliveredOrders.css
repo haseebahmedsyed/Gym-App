@@ -1,0 +1,11 @@
+th{
+    padding: 20px;
+}
+tbody> tr{
+    /* margin-top: 20px; */
+    line-height: 50px;
+}
+
+td{
+    text-align: center;
+}

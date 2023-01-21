@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.dashboard-main-heading{
+    text-align: center;
+    color: #f6c501;
+    font-size: 45px;
+    margin: 18px;
+}
+
+.dashboard-main-heading > span{
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+.box-of-dashboard1{
+    color: white;
+    width: 35%;
+    height: 280px;
+    margin: 25px auto;
+    background-color: #18181852;
+    cursor: pointer;
+    background-image: url('../../feeIns2.jpg');
+
+    background-position: center;
+    background-size: cover;
+}
+.box-of-dashboard2{
+    color: white;
+    width: 35%;
+    height: 280px;
+    margin: 25px auto;
+    cursor: pointer;
+    background-image: url('../../OrderInspection.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box-of-dashboard3{
+    color: white;
+    width: 35%;
+    height: 280px;
+    margin: 25px auto;
+    cursor: pointer;
+    background-image: url('../../sm2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box-of-dashboard4{
+    color: white;
+    width: 35%;
+    height: 280px;
+    margin: 25px auto;
+    cursor: pointer;
+    background-image: url('../../ContactUs.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.box-of-dashboard{
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+}
+
+.box-of-dashboard > p{
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    text-align: center;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.details-btn-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-btn-div > i{
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+}
+
+.details-btn-div > button{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.details-btn-div > button:hover{
+    text-decoration: underline;
+}
+
+.mybtn3{
+    text-decoration: none;
+    color: white;
+    opacity: 1 !important;
+}
+
+.mydash{
+    text-align: center;
+    color: white;
+    opacity: 1 !important;
+}

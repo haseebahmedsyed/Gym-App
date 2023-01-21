@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#order-status-heading{
+    text-align: center;
+    font-size: 45px;
+    margin: 15px 0px;
+    color: #f6c501;
+}
+
+.div-of-order-status-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.my2btn{
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin: 30px 125px;
+    text-decoration: none;
+}
+
+.my2btn:hover{
+    color: #f6c501;
+}
+
+.my2btn:active{
+    text-decoration: underline;
+}
+
+.myOutlet{
+    margin-left: 0px;
+    /* text-align: center; */
+}

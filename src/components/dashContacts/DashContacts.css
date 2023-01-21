@@ -1,0 +1,35 @@
+#sweetButton{
+    text-transform: uppercase;
+    background-color: #2f3030;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    height: 50px;
+    width: 100px;
+}
+
+#sweetButton:hover{
+    background-color:#f6c501;
+    border: 2px solid black;
+    color: black;
+
+}
+#mytxtArea{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 150;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+.contactheading{
+    margin: 25px;
+}
+.conatct{
+    margin: 15px;
+}

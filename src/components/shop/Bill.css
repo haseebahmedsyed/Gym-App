@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.checkout{
+    margin-left: 150px;
+    display: inline-block;
+    width: 1000px;
+
+}
+.summary{
+    width: 500px;
+}
+.tables{
+    /* border: 2px solid white; */
+    width: 370px;
+    font-size: large;
+}
+.inputBoxes{
+    /* display: block; */
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+.row{
+    margin-left: 50px;
+}
+.pay{
+    width:100%;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 7px;
+
+}
+.btn-purchase{
+    border: 2px solid white;
+    margin-top: 30px;
+    width: 60%;
+    font-size: 18px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: white;
+}
+.btn-purchase:hover{
+    border: 3px solid white;
+    background-color: #f6c501;
+    color: black;
+}
+
+#success3{
+    border: 2px solid limegreen;
+    box-shadow: 0 0 20px limegreen;
+    outline: none;
+}
+
+#error3{
+    border: 2px solid crimson !important;
+    box-shadow: 0 0 20px crimson;
+    outline: none;
+}
+
+#null3{
+    width: 300px;
+    height: 35px;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    outline: none;
+}
+
+#null3:focus{
+    border: 2px solid #f6c501;
+    box-shadow: 0 0 20px #f6c501;
+    outline: none;
+}
+
+.btnConfirmPurchase{
+    width: 65%;
+    margin: 0px 10px 0px 205px;
+}

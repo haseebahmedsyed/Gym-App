@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.main-page-of-profile{
+    display: flex;
+}
+
+/* #img-of-person{
+    background-image: url('../../../backend/memberprofile/ProfilePic_1656528388621.jpg');
+} */
+
+.div-of-img-and-name{
+    width: 25%;
+    text-align: center;
+    height: 720px;
+    background-color: #f9cf28c9;
+}
+
+#div-of-image{
+    border-radius: 100px;
+    margin: 160px auto 15px auto;
+    width: 168px;
+    height: 168px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+#div-of-image:hover{
+    cursor: pointer;
+}
+
+#file{
+    display: none;
+}
+
+#label-of-image{
+    position: absolute;
+    bottom: 0px;
+    left: -1px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+}
+
+#label-of-image:hover{
+    cursor: pointer;
+}
+
+.div-of-img-and-name > p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div-of-information{
+    margin: 20px 50px;
+    width: 70%;
+}
+
+.div-of-information > h1{
+    font-size: 40px;
+}
+
+.div-of-information > h1::after{
+    content: "";
+    width: 100%;
+    display: block;
+    height: 5px;
+    background-color: #f9cf28c9;
+    margin-bottom: 50px;
+}
+
+.main-divs-of-information{
+    width: 48%;
+}
+
+.right-main-div-of-information{
+    width: 30%;
+    position: absolute;
+    right: 0;
+}
+
+.main-divs-of-information > div{
+    font-size: 22px;
+}
+
+#email-left{
+    color: yellow;
+    border: 2px solid black;
+    margin-bottom: 34px;
+}
+
+
+#package-left{
+    color: yellow;
+    border: 2px solid black;
+    margin-bottom: 34px;
+}
+
+#weight-left{
+    color: yellow;
+    border: 2px solid black;
+}
+
+#gender-right{
+    color: yellow;
+    border: 2px solid black;
+}
+
+#age-right{
+    color: yellow;
+    border: 2px solid black;
+    margin-bottom: 34px;
+}
+
+#phone-right{
+    color: yellow;
+    border: 2px solid black;
+    margin-bottom: 34px;
+}
+
+.main-divs-of-information p{
+    font-size: 25px;
+}

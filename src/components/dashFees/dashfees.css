@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fees-status-heading{
+    text-align: center;
+    font-size: 45px;
+    margin: 15px 0px;
+}
+#fees-status-heading > span{
+    color: #f6c501;
+    font-weight: bold;
+}
+
+.div-of-status-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.myBtn{
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin: 30px 125px;
+    text-decoration: none;
+    color: white;
+}
+
+.myBtn:hover{
+    color: #f6c501;
+}
+
+.myBtn:active{
+    text-decoration: underline;
+}
+
+.myOutlet{
+    margin-left: 0px;
+    text-align: center;
+}

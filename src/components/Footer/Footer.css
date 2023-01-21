@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* background-color: black; */
+ 
+}
+
+
+#div-of-footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21rem;
+    background-image: url('../../footer123.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#div-of-footer > div{
+    margin: 0px 60px;
+}
+
+.left > div{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    width: 21px;
+    height: 21px;
+}
+
+#upper-div-of-left{
+    padding: 4px 4px 4px 8px;
+    border-bottom: 1px solid white;
+}
+
+#lower-div-of-left{
+    padding: 4px 4px 4px 8px;
+    border-bottom: 1px solid white;
+}
+
+.fa-male{
+    font-size: 22px !important;
+    margin-right: 4px;
+}
+
+.fa-footer{
+    color: #b1b1b1 !important;
+}
+
+.fa-footer-contact{
+    font-size: 20px !important;
+}
+
+.fa-female{
+    font-size: 22px !important;
+    margin-right: 3px;
+}
+
+.fa-clock-o{
+    font-size: 22px !important;
+}
+
+.left div, .mid div{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.right a i{
+    color: white;
+    margin: 15px;
+}
+
+#facebook-logo{
+    margin: 15px 15px 15px 0px;
+}
+
+#footer{
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    background-color: #3a6c9e;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-heading{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.fa-map-marker{
+    color: #f6c501;
+    margin-left:10px;
+    margin-right: 8px;
+}
+
+.fa-phone{
+    color: #f6c501;
+    margin-left:10px;
+    margin-right: 14px!important;
+}

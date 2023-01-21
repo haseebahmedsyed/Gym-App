@@ -1,0 +1,19 @@
+th{
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    align-items: baseline;
+}
+tbody> tr{
+    /* margin-top: 20px; */
+    line-height: 50px;
+    text-align: center;
+    align-content: center;
+    align-items: baseline;
+}
+
+td{
+    text-align: center;
+    align-content: center;
+    align-items: baseline;
+}

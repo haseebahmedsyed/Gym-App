@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "./static/css/main.743c0f25.css",
+    "main.js": "./static/js/main.1c152269.js",
+    "static/js/787.375f2d88.chunk.js": "./static/js/787.375f2d88.chunk.js",
+    "static/media/sm2.jpg": "./static/media/sm2.51f31f17325c913c4b0d.jpg",
+    "static/media/ContactUs.jpg": "./static/media/ContactUs.565a044f130e5aab6c4c.jpg",
+    "static/media/OrderInspection.jpg": "./static/media/OrderInspection.24208f32112ae32a9612.jpg",
+    "static/media/footer123.jpg": "./static/media/footer123.eb8e87deb289194605f4.jpg",
+    "static/media/login-image.jpg": "./static/media/login-image.20dec67c329fd2511fec.jpg",
+    "static/media/fees-payment.jpg": "./static/media/fees-payment.b3279e73f8b0b04ec7bf.jpg",
+    "static/media/feeIns2.jpg": "./static/media/feeIns2.a3bbf8f5b3126903bc09.jpg",
+    "static/media/trainer.jpg": "./static/media/trainer.8e5919bc02e052115c03.jpg",
+    "static/media/ropes.jpg": "./static/media/ropes.0864b4bcf3e3d35eedb0.jpg",
+    "static/media/punching-bags.jpg": "./static/media/punching-bags.17fb67503931d0c38f7a.jpg",
+    "static/media/yoga-mat.jpg": "./static/media/yoga-mat.58c6008003748941d6f7.jpg",
+    "static/media/contactPic.jpeg": "./static/media/contactPic.0aa3c65d0efdad3f426d.jpeg",
+    "static/media/diet.png": "./static/media/diet.d7c2d6baf6ff63a4faa4.png",
+    "static/media/lifting.png": "./static/media/lifting.cce001325313d2ba1eb7.png",
+    "static/media/jumping.png": "./static/media/jumping.b536ef6a5ac5202c3393.png",
+    "static/media/squats.png": "./static/media/squats.f249bf62ee2de34ca1cc.png",
+    "static/media/push-up.png": "./static/media/push-up.529aea97058a3d053d82.png",
+    "static/media/climber.png": "./static/media/climber.e2abd1bfb408eade1d26.png",
+    "static/media/push-ups.png": "./static/media/push-ups.cab3e7dd3e6d032e3c3c.png",
+    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "./index.html",
+    "main.743c0f25.css.map": "./static/css/main.743c0f25.css.map",
+    "main.1c152269.js.map": "./static/js/main.1c152269.js.map",
+    "787.375f2d88.chunk.js.map": "./static/js/787.375f2d88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743c0f25.css",
+    "static/js/main.1c152269.js"
+  ]
+}

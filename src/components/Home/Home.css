@@ -1,0 +1,388 @@
+.because-we-care-div {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+
+.us{
+    margin-top: 10px !important;
+}
+
+#imageee {
+    height: 485px !important;
+}
+
+.content-of-because-we-care {
+    padding: 0px 32px;
+    margin-bottom: 90px;  
+}
+
+#para {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+
+}
+
+/* .desc {
+    background-color: rgb(39, 33, 33);
+} */
+
+.full {
+    /* background-color: rgb(24, 19, 19); */
+    height: 560px;
+    background-color: rgb(20, 20, 20);
+    /* padding-top: 50px; */
+}
+
+.whyus-header{
+    margin-top: 20px;
+}
+
+.All-progress{
+    margin-top: 60px !important;
+}
+
+.motivation {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.text {
+    margin-right: 5%;
+}
+
+.text p {
+    color: white;
+    font-size: larger;
+    text-align: justify;
+}
+
+h1 {
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    font: 700 normal 2.5em 'tahoma';
+    color: white;
+}
+
+/* img:hover{
+    opacity: 0.8;
+} */
+.heading {
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    font: 700 normal 2.5em 'tahoma';
+    color: white;
+
+    animation: text-shadow 2s ease-in infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+    transition-delay: 2s;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+}
+
+@keyframes text-shadow {
+    0% {
+        transform: translateY(0);
+        text-shadow:
+            0 0 0 #0c2ffb,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fefc4b;
+    }
+
+    20% {
+        transform: translateY(-1em);
+        text-shadow:
+            0 0.125em 0 #0c2ffb,
+            0 0.25em 0 #2cfcfd,
+            0 -0.125em 0 #fb203b,
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {
+        transform: translateY(0.5em);
+        text-shadow:
+            0 -0.0625em 0 #0c2ffb,
+            0 -0.125em 0 #2cfcfd,
+            0 0.0625em 0 #fb203b,
+            0 0.125em 0 #fefc4b;
+    }
+
+    60% {
+        transform: translateY(-0.25em);
+        text-shadow:
+            0 0.03125em 0 #0c2ffb,
+            0 0.0625em 0 #2cfcfd,
+            0 -0.03125em 0 #fb203b,
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {
+        transform: translateY(0);
+        text-shadow:
+            0 0 0 #0c2ffb,
+            0 0 0 #2cfcfd,
+            0 0 0 #fb203b,
+            0 0 0 #fefc4b;
+    }
+}
+
+#ourOffersMainDiv {
+    background-color: rgb(20, 20, 20);
+    height: 710px;
+    
+}
+
+.main-text {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.main-text-first {
+    color: white;
+}
+
+.main-text-second {
+    color: #f6c501 !important;
+}
+
+.main-of {
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+
+}
+
+.box {
+    padding: 10px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.ouroffersImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #f6c501;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s ease-out;
+    padding: 6px;
+}
+
+
+.img-ourOffers {
+    height: 75px;
+    width: 75px;
+}
+
+.ourOffers-subhead {
+    color: #f6c501;
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin: 20px;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 500px;
+}
+
+.ourOffers-text {
+    font-size: 18px;
+    color: white;
+
+}
+
+.ouroffersImg:hover {
+    transition-timing-function: ease-in;
+    border-radius: 20px;
+}
+
+/* #myBtn{
+    margin: 51px;
+} */
+
+.ourOffers-button {
+    width: 130px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #2f3030;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.ourOffers-button:hover {
+    background-color: #f6c501;
+    color: black;
+    border: 1px solid rgb(21, 19, 19);
+
+}
+
+.buttonOurOffers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#more {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#more3 {
+    display: none;
+}
+
+ body{
+    color: white;
+    background-color: black;
+}
+
+#home-workout-section1{
+    margin: 50px;
+}
+
+#home-workout-heading{
+    font-size: 46px;
+    text-align: center;
+    margin: 15px;
+}
+#home-workout-heading > span{
+    color: #f6c501;
+}
+
+.main-div1{
+    display: flex;
+    justify-content: center;
+}
+
+.hidden-content1{
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: white;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden-content1 > h2{
+    color: #f6c501;
+    margin: 10px 0px;
+}
+
+.hidden-content1 h3{
+    margin-bottom: 28px;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.box1{
+    border-radius: 15px;
+    margin: 30px 65px;
+    width: 485px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px white;
+}
+
+
+.image-div1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transition: all 0.8s;
+}
+
+#jumping-jacks1::before{
+    content: "Jumping Jacks";
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    font-size: 95px;
+    position: absolute;
+    top: -25px;
+    left: 4px;
+    text-align: center;
+}
+
+#squats1::before{
+    content: "Squats";
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    font-size: 95px;
+    position: absolute;
+    top: 105px;
+    left: 75px;
+    text-align: center;
+}
+
+#mountain-climbers1::before{
+    content: "Mountain Climbers";
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    font-size: 95px;
+    position: absolute;
+    top: -20px;
+    text-align: center;
+}
+
+#push-ups1::before{
+    content: "Push-Ups";
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.2;
+    font-size: 95px;
+    position: absolute;
+    top: 107px;
+    left: 15px;
+    text-align: center;
+}
+
+.immg{
+    width: 180px;
+    position: absolute;
+    left: 145px;
+    top: 35px;
+    opacity: 0.9;
+}
+
+
+.box1:hover .image-div1{
+    left: -100%;
+} 
+
+/* .whyus-header{
+    margin-top: 50px;
+} */

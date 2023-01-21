@@ -1,0 +1,187 @@
+.mydiv{
+    margin: 0;
+}
+
+#main-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 8px;
+}
+
+#main-head-content {
+    color: white;
+    padding: 15px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px white; 
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.dropdown{
+    position: absolute;
+    right: 30px;
+    top: 22px;
+}
+
+.login-btn-of-main-heading{
+    position: absolute;
+    top: 19px;
+    right: 28px;
+    text-decoration: none;
+    width: 130px;
+    padding: 6px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: #2f3030;
+}
+
+.login-btn-of-main-heading:hover{
+    color: black;
+    background-color: #f6c501;
+    cursor: pointer;
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.ul-nav li{
+    font-size: 19px;
+}
+
+.li-nav {
+    display: inline;
+    float: left;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.li-nav:hover {
+    border-radius: 20px;
+    background-color: #249069;
+}
+
+
+/* .li-nav:hover{
+    color: white;
+} */
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li Link{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: #ffffff;
+}
+
+.nav-active:hover{
+    color: white !important;
+}
+
+
+
+.active {
+    border-radius: 20px;
+    background-color: #249069;
+}
+
+
+
+
+#navbar-2{
+    width: 100%;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Sticky NavBar */
+.ul-nav-after{
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+        background-color: #000000;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.li-nav-after {
+    display: inline;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#main-head-content-after{
+    color: white;
+    font-size: 26px;
+    font-family: 'Righteous', cursive;
+    margin: 8px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+    padding-top: 60px;
+} */
+
+.li-nav-member:hover{
+    border-radius: 20px;
+    background-color: #249069;
+}
+
+.nav-button-member:hover{
+    color: white;
+}
+
+#loginName:hover{
+    background-color: #f6c501;
+    color: #000000;
+}
+#cart-num{
+    margin-right: 14px;
+    padding: 12px 8px;
+}

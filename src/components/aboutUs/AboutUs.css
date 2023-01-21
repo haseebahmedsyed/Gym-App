@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-about-us{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-head{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.fst-rw{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;  
+
+
+}
+
+.logo-div{
+    margin: 0px 5px;
+}
+
+#logo{
+    width: 200px;
+    height: 170px;
+}
+
+.main-head-text{
+    margin-top: 0px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+.main-head-desc{
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.font-yellow{
+    color:  #f6c501;
+}
+
+.font-white{
+    color: white;
+}
+
+.spacePlease{
+    padding-left: 15px;
+}
+
+.ourStory{
+    width: 100%;
+    display: flex;
+    /* margin: 10px auto; */
+    background-color: rgb(20, 20, 20);
+    margin: 10px auto;
+}
+
+.ourStory-main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+.main-ourStory{
+    width: 75%;
+    margin: 50px auto;
+}
+
+.ourStory-main-desc{
+    font-size: 19px;
+    font-style: oblique;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.ourStory-desc{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+
+.ourValues{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ourValues-main{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.ourValues-main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.ourValues-desc{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.sixCore{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+    margin: 20px auto;
+    
+}
+
+.oneCore{
+    width: 40%;
+    /* border: 1px solid white;
+    box-shadow: 0 0 10px white; */
+    border: 1px solid #f6c501;
+    box-shadow: 0 0 10px #f6c501;
+    border-radius: 13px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 100%;
+    min-height: 340px;
+    background-color: rgb(20, 20, 20);
+}
+
+.colCore{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color:  #222222; */
+}
+
+.coreDesc{
+    text-align: center;
+    font-size: 18px;
+}
+
+.coreHeaders{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.fa-aboutus{
+    color: #f6c501;
+}
+
+.tms{
+    font-weight: 600;
+    color: #f6c501;
+}
+
+.ourPeople{
+    background-color: rgb(20, 20, 20);
+    margin-top: 70px;
+    height: 100%;
+}
+
+.main-ourPeople{
+    width: 75%;
+    margin: 70px auto;
+}
+
+.ourPeople-main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.ourPeople-main-desc{
+    font-size: 19px;
+    font-style: oblique;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.ourPeople-desc{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.ourPeople-Img-MainDiv{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 75%;
+}
+
+.ourPeople-Img{
+    width: 346.39px;
+    height: 346.39px;   
+    /* border: 1px solid white;
+    box-shadow: 0 0 10px white; */
+    border: 1px solid #f6c501;
+    box-shadow: 0 0 10px #f6c501;
+    border-radius: 12px;
+}
+
+.ourPeople-Img-Div{
+    padding: 20px;
+}
+
+.main-ourCulture{
+    width: 75%;
+    margin: 70px auto;
+}
+
+.ourCulture-main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.ourCulture-main-desc{
+    font-size: 19px;
+    font-style: oblique;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.ourCulture-desc{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#btn-ToContactUs{
+    width: 210px;
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #2f3030;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-ToContactUs:hover{
+    background-color:#f6c501;
+    color: black;
+    border: 1px solid rgb(21, 19, 19);
+}
+
+.contactUsButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
