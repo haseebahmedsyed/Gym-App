@@ -1,8 +1,8 @@
 {
     "builds":[
         {
-            "src":"package.json",
-            "use":"@frontity/now"
+            "src":"index.js",
+            "use":"@now/node"
         }
     ],
     "routes":[
