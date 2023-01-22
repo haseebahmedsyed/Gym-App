@@ -64,7 +64,7 @@ function MemberState(props) {
 
   const LoginMember = async (Email, Password) => {
 
-    const host = 'http://localhost:3000'
+    const host = process.env.NODE_ENV == 'production' ? "": 'http://localhost:3000'
     const response = await fetch(`${host}/api/v1/user/login`, {
       method: 'POST',
       headers: {

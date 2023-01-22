@@ -48,6 +48,7 @@ const Login = (req, res) => {
     let mem = req.body;
     const quuery = "SELECT Email,Password FROM members WHERE Email= ?"
     mysqlConnection.query(quuery, mem.Email, async(error, result) => {
+        // console.log(JSON.parse((JSON.stringify(result))))
         let cred = JSON.parse((JSON.stringify(result[0])))
         const passChek = await bcrypt.compare(mem.Password, cred.Password)
         if (error) {
